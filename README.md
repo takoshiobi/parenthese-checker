@@ -1,6 +1,5 @@
-# TP 4 : Algorithmes et programmation
+## Balanced parentheses
 
-## 2. Bon parenthésage
 [![Py Download](https://img.shields.io/badge/python-3.5-red.svg)](https://www.python.org/downloads/release/python-350/)
 [![Sphinx](https://img.shields.io/badge/sphinx-python%20doc%20generator-green.svg)](http://www.sphinx-doc.org/en/1.4.8/)
 [![Unix](https://img.shields.io/badge/linux-command%20line-lightgrey.svg)](http://linuxcommand.org/lc3_learning_the_shell.php)
@@ -8,7 +7,7 @@
 [![REMOVED](https://travis-ci.org/tonythedealer/tp-info.svg?branch=master)](https://travis-ci.org/)
 
 ### Version 1.
-Code to check if some input file to the function contains balanced parentheses.
+Cheks if input file has balanced parentheses.
 Returns 'Well parenthesed' or 'Bad parenthesed'.
 
 'Well parenthesed' condition:
