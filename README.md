@@ -63,10 +63,6 @@ Returns line, column and reason of unbalanced parenthesis.
 ```python
               
 class ParenthesisError(Exception):
-    # there's no need to use this class as exception is this case
-    # because there's no racing errors
-    # but in case of errors usage all 'print's in this file
-    # should be replaced with 'raise'
     def __init__(self, parenthesis, error):
         what_is_wrong = '%s at line %s, char number %s, the problem is >>> %s'
         parenthesis.line = parenthesis.line.replace('\n', '\\n')
