@@ -1,5 +1,6 @@
 ## Balanced parentheses
 
+[![Collab](https://img.shields.io/badge/%E2%99%A5-collaborator-ff0068.svg)](https://github.com/MajorPetrov)
 [![Py Download](https://img.shields.io/badge/python-3.5-red.svg)](https://www.python.org/downloads/release/python-350/)
 [![Sphinx](https://img.shields.io/badge/sphinx-python%20doc%20generator-green.svg)](http://www.sphinx-doc.org/en/1.4.8/)
 [![Unix](https://img.shields.io/badge/linux-command%20line-lightgrey.svg)](http://linuxcommand.org/lc3_learning_the_shell.php)
