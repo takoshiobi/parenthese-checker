@@ -18,26 +18,6 @@ Returns 'Well parenthesed' or 'Bad parenthesed'.
 
 ```python
 
-        #########################################################
-        #                                                       #
-        # Program to check for balanced parentheses in file     #
-        # passed as parameter.                                  #
-        #                                                       #
-        # __Time complexity: O(n)                               #
-        # __Space complexity: O(n/2)                            #
-        # __*where n is the length of file(str)                 #
-        #                                                       #
-        # Time of a python program execution for files used     #
-        # as example:                                           #
-        #                                                       #
-        # stack.py          --- 0.002000093460083008 seconds ---#                    
-        # bad_stack1.py     --- 0.0009999275207519531 seconds --#
-        # bad_stack2.py     --- 0.021001338958740234 seconds ---#
-        # bad_stack3.py     --- 0.021001338958740234 seconds ---#
-        # bad_stack4.py     --- 0.0030002593994140625 seconds --#
-        #                                                       #                        
-        #########################################################
-
 def parentheses_checker1(file):
     """
     Returns the phrase 'Well parenthesed' if each open parenthesis has
@@ -81,28 +61,7 @@ def parentheses_checker1(file):
 Returns line, column and reason of unbalanced parenthesis. 
 
 ```python
-
-        #########################################################
-        #                                                       #
-        # Program to check for balanced parentheses in file     #
-        # passed as parameter and return line, col., and        #                          
-        # phase containing unbalanced parentheses.              #
-        #                                                       #
-        # __Time complexity: O(n)                               #
-        # __Space complexity: O(n/2)                            #
-        # __*where n is the length of file(str)                 #
-        #                                                       #
-        # Time of a python program execution for files used     #
-        # as example:                                           #
-        #                                                       #
-        # stack.py          --- 0.0009999275207519531 seconds --#                    
-        # bad_stack1.py     --- 0.016000986099243164 seconds ---#
-        # bad_stack2.py     --- 0.009000539779663086 seconds ---#
-        # bad_stack3.py     --- 0.01000070571899414 seconds --- #
-        # bad_stack4.py     --- 0.011000394821166992 seconds ---#
-        #                                                       #                        
-        #########################################################
-
+              
 class ParenthesisError(Exception):
     # there's no need to use this class as exception is this case
     # because there's no racing errors
